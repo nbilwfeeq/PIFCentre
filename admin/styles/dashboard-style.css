@@ -1,0 +1,47 @@
+:root {
+  --tortilla : #351E10;
+  --cedar: #997950;
+  --expresso : #4B382A;
+  --orange : #f9a241;
+  --black : black;
+  --white : white;
+  --red : #f92e2e; 
+}
+
+/*============Navbutton============*/
+.card {
+  transition: transform 0.5s, box-shadow 0.5s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.card:hover {
+  transform: scale(1.05) translateY(-10px);
+  box-shadow: 0 20px 30px var(--cedar); 
+  border: 1px solid var(--cedar);
+}
+
+.card-body i {
+  transition: color 0.5s;
+  color: #000; 
+}
+
+.card-body h2,h6 {
+  transition: color 0.5s;
+  color: #000; 
+}
+
+/* .card-body span {
+  color: var(--expresso); 
+} */
+
+.card:hover .card-body i {
+  color: var(--cedar); 
+}
+
+.card:hover .card-body h2 {
+  color: var(--cedar); 
+}
+
+.card .card-body h6 {
+  color: var(--cedar); 
+}

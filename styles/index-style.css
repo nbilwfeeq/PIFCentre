@@ -1,0 +1,106 @@
+/* Text overlay styling */
+.carousel-caption {
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.overlay-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+.overlay-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    margin-top: 0.5em;
+}
+
+/* Carousel adjustments */
+#carouselExampleFade {
+    margin-top: 0; /* Remove top margin */
+}
+
+.carousel-item img {
+    vertical-align: top; /* Ensure images align to the top */
+    height: 82vh;
+}
+
+/* Custom styles for header */
+.navbar-custom {
+    background-color: var(--white);
+    color: white;
+    height: 110px;
+    margin-bottom: 0;
+}
+
+.navbar-brand img {
+    height: 60px;
+}
+
+/* Nav item styling */
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8em;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 1px;
+    padding: 0 15px;
+    position: relative;
+}
+
+.nav-link:hover {
+    color: var(--cedar);
+    text-decoration: none;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+/* Add separator */
+.nav-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -10px;
+    width: 1px;
+    height: 15px;
+    background-color: currentColor;
+}
+
+.nav-item:last-child::before {
+    display: none; /* Hide separator for the last item */
+}
+
+/* Custom Button */
+.btn-custom {
+    background-color: var(--cedar); 
+    color: white;
+    border-radius: 0;
+    padding: 12px 20px;
+    transition: left 0.4s ease;
+    text-decoration: none;
+}
+
+.btn-custom:hover {
+    background-color: white;
+    color: var(--cedar);
+    border: solid 2px var(--cedar);
+}
+
+/* Adjust carousel margin for smaller devices */
+@media (max-width: 767px) {
+    #carouselExampleFade {
+        margin-top: 0;
+    }
+}

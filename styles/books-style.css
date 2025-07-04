@@ -1,0 +1,93 @@
+:root {
+    --tortilla : #351E10;
+    --cedar: #997950;
+    --expresso : #4B382A;
+    --orange : #f9a241;
+    --backup-color : black;
+    --white-main : white;
+    --red: #B22222;
+}
+
+.card {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all ease 0.5s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Default box-shadow */
+}
+
+.card:hover {
+  box-shadow: 0 30px 40px var(--light-cream);
+  border: 1px solid var(--light-cream);
+  transform: scale(1.1);
+}
+
+.card-body {
+  flex: 1; /* Ensures the card body takes up available space */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-body .btn-custom {
+  align-self: flex-end; /* Align the button to the bottom */
+  margin-top: auto; /* Pushes the button to the bottom of the card body */
+}
+
+.card-body h5 {
+  transition: color 0.5s;
+  color: #000; /* Default text color */
+}
+
+.card:hover .card-body i {
+  color: var(--light-cream);
+}
+
+.card:hover .card-body h5 {
+  color: var(--light-cream);
+}
+
+/*======= button styling =========*/
+.btn-custom {
+  border: 2px solid black; 
+  border-radius: 25px; 
+  padding: 10px 20px; 
+  color: black;
+  background-color: transparent; 
+  transition: all 0.3s ease; 
+  font-size: 1rem; 
+  text-decoration: none;
+}
+
+.btn-custom:hover {
+  color: #fff;
+  background-color: var(--light-cream); 
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .btn-custom {
+      padding: 8px 16px; /* Adjust padding for smaller screens */
+      font-size: 0.9rem; /* Slightly smaller font size */
+  }
+}
+
+@media (max-width: 576px) {
+  .btn-custom {
+      padding: 6px 12px; /* Further adjust padding for very small screens */
+      font-size: 0.8rem; /* Further reduce font size */
+  }
+}
+
+
+
+/*====== book-detail =====*/
+
+.book-image {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  max-width: 300px; /* Set a maximum width */
+  max-height: 700px; /* Set a maximum height */
+  object-fit: cover; /* Ensure the image covers the dimensions without stretching */
+}

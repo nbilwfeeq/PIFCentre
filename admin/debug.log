@@ -1,0 +1,315 @@
+Array
+(
+    [status_pinjaman] => 2
+)
+id_loan: , status_pinjaman: 
+Array
+(
+    [status_pinjaman] => 2
+)
+id_loan: , status_pinjaman: 
+Array
+(
+    [status_pinjaman] => 1
+)
+id_loan: , status_pinjaman: 
+Array
+(
+    [status_pinjaman] => 1
+)
+id_loan: , status_pinjaman: 
+Array
+(
+    [status_pinjaman] => 2
+)
+id_loan: , status_pinjaman: 
+Array
+(
+    [status_pinjaman] => 2
+)
+id_loan: , status_pinjaman: 
+Array
+(
+    [status_pinjaman] => 2
+)
+id_loan: , status_pinjaman: 
+Array
+(
+    [id_loan] => 25
+    [status_pinjaman] => 2
+)
+Array
+(
+    [id_loan] => 25
+    [status_pinjaman] => 1
+)
+Array
+(
+    [id_loan] => 25
+    [status_pinjaman] => 2
+)
+Array
+(
+    [id_loan] => 25
+    [status_pinjaman] => 2
+)
+Array
+(
+    [id_loan] => 25
+    [status_pinjaman] => 1
+)
+Array
+(
+    [id_loan] => 25
+    [status_pinjaman] => 2
+)
+Array
+(
+    [id_loan] => 25
+    [status_pinjaman] => 3
+)
+Array
+(
+    [id_loan] => 25
+    [status_pinjaman] => 2
+)
+Array
+(
+    [id_loan] => 25
+    [status_pinjaman] => 3
+)
+Array
+(
+    [id_loan] => 25
+    [status_pinjaman] => 1
+)
+Array
+(
+    [id_loan] => 26
+    [status_pinjaman] => 1
+)
+Array
+(
+    [id_loan] => 26
+    [status_pinjaman] => 2
+)
+Array
+(
+    [id_loan] => 26
+    [status_pinjaman] => 3
+)
+Array
+(
+    [id_loan] => 27
+    [status_pinjaman] => 1
+)
+Array
+(
+    [id_loan] => 27
+    [status_pinjaman] => 2
+)
+Array
+(
+    [id_loan] => 27
+    [status_pinjaman] => 3
+)
+Array
+(
+    [id_loan] => 28
+    [status_pinjaman] => 2
+)
+Array
+(
+    [id_loan] => 28
+    [status_pinjaman] => 3
+)
+Array
+(
+    [id_loan] => 32
+    [status_pinjaman] => 1
+)
+Array
+(
+    [id_loan] => 41
+    [status_pinjaman] => 2
+)
+Array
+(
+    [id_loan] => 41
+    [status_pinjaman] => 3
+)
+Array
+(
+    [id_loan] => 41
+    [status_pinjaman] => 2
+)
+Array
+(
+    [id_loan] => 41
+    [status_pinjaman] => 3
+)
+Array
+(
+    [id_loan] => 42
+    [status_pinjaman] => 2
+)
+Array
+(
+    [id_loan] => 42
+    [status_pinjaman] => 1
+)
+Array
+(
+    [id_loan] => 44
+    [status_pinjaman] => 2
+)
+Array
+(
+    [id_loan] => 44
+    [status_pinjaman] => 3
+)
+Array
+(
+    [id_loan] => 49
+    [status_pinjaman] => 2
+)
+Array
+(
+    [id_loan] => 49
+    [status_pinjaman] => 2
+)
+Array
+(
+    [id_loan] => 49
+    [status_pinjaman] => 1
+)
+Array
+(
+    [id_loan] => 51
+    [status_pinjaman] => 2
+)
+Array
+(
+    [id_loan] => 52
+    [status_pinjaman] => 2
+)
+Array
+(
+    [id_loan] => 51
+    [status_pinjaman] => 3
+)
+Array
+(
+    [id_loan] => 52
+    [status_pinjaman] => 1
+)
+Array
+(
+    [id_loan] => 51
+    [status_pinjaman] => 1
+)
+Array
+(
+    [id_loan] => 54
+    [status_pinjaman] => 2
+)
+Array
+(
+    [id_loan] => 54
+    [status_pinjaman] => 3
+)
+Array
+(
+    [id_loan] => 54
+    [status_pinjaman] => 1
+)
+Array
+(
+    [id_loan] => 62
+    [status_pinjaman] => 2
+)
+Array
+(
+    [id_loan] => 62
+    [status_pinjaman] => 1
+)
+Array
+(
+    [id_loan] => 62
+    [status_pinjaman] => 2
+)
+Array
+(
+    [id_loan] => 62
+    [status_pinjaman] => 2
+)
+Array
+(
+    [id_loan] => 62
+    [status_pinjaman] => 1
+)
+Array
+(
+    [id_loan] => 62
+    [status_pinjaman] => 3
+)
+Array
+(
+    [id_loan] => 64
+    [status_pinjaman] => 2
+)
+Array
+(
+    [id_loan] => 64
+    [status_pinjaman] => 1
+)
+Array
+(
+    [id_loan] => 65
+    [status_pinjaman] => 2
+)
+Array
+(
+    [id_loan] => 65
+    [status_pinjaman] => 3
+)
+Array
+(
+    [id_loan] => 65
+    [status_pinjaman] => 3
+)
+Array
+(
+    [id_loan] => 65
+    [status_pinjaman] => 1
+)
+Received POST data:
+Array
+(
+    [id_loan] => 65
+    [status_pinjaman] => 1
+)
+Received POST data:
+Array
+(
+    [id_loan] => 65
+    [status_pinjaman] => 2
+)
+Received POST data:
+Array
+(
+    [id_loan] => 67
+    [status_pinjaman] => 2
+)
+Received POST data:
+Array
+(
+    [id_loan] => 67
+    [status_pinjaman] => 3
+)
+Received POST data:
+Array
+(
+    [id_loan] => 67
+    [status_pinjaman] => 1
+)

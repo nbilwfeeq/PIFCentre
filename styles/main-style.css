@@ -1,0 +1,19 @@
+:root {
+    --tortilla : #351E10;
+    --cedar: #997950;
+    --light-cream: grey;
+    --light-cedar : #e0a85e;
+    --expresso : #4B382A;
+    --orange : #f9a241;
+    --backup-color : black;
+    --white-main : white;
+    --white-grey : #f7f7f7;
+    --red: #ED2939;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+  

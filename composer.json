@@ -1,0 +1,14 @@
+{
+    "name": "pif-center/dashboard",
+    "description": "PTA Project",
+    "authors": [
+        {
+            "name": "Nabil Wafiq"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "dompdf/dompdf": "*",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

@@ -1,0 +1,18 @@
+.row {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Default box-shadow */
+  }
+
+.row img {
+    margin-left: -11px;
+    width: 300px;
+}
+
+.row .row-body {
+    padding: 30px 0px;
+}
+
+.row .row-body2 {
+    padding: 100px 0px;
+}
+ 

@@ -1,0 +1,33 @@
+:root {
+  --tortilla : #351E10;
+  --cedar: #997950;
+  --expresso : #4B382A;
+  --orange : #f9a241;
+  --black : black;
+  --white : white;
+  --red : #f92e2e;
+}
+  
+  * {
+      box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .hidden {
+    display: none;
+  }
+  
+  video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+  

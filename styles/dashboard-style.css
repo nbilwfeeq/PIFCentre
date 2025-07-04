@@ -1,0 +1,37 @@
+:root {
+    --tortilla : #351E10;
+    --cedar: #997950;
+    --expresso : #4B382A;
+    --orange : #f9a241;
+    --backup-color : black;
+    --white-main : white;
+}
+
+.card {
+  transition: transform 0.5s, box-shadow 0.5s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Default box-shadow */
+}
+
+.card:hover {
+  transform: scale(1.05) translateY(-10px);
+  box-shadow: 0 20px 30px var(--light-cream);
+  border: 1px solid var(--light-cream);
+}
+
+.card-body i {
+  transition: color 0.5s;
+  color: #000; /* Default icon color */
+}
+
+.card-body h5 {
+  transition: color 0.5s;
+  color: #000; /* Default text color */
+}
+
+.card:hover .card-body i {
+  color: var(--light-cream);
+}
+
+.card:hover .card-body h5 {
+  color: var(--light-cream);
+}
